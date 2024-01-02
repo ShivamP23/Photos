@@ -1,3 +1,5 @@
+JAVAFX Photos 
+
 Important Notice: Fall 2023 course project for CS213 at Rutgers University. Please follow Rutgers University's Academic Integrity Policy.
 
 Description: Java Application to manage library of Photos.
