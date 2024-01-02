@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="473.0" prefWidth="704.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="controller.LoginFormController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="118.0" layoutY="38.0" prefHeight="61.0" prefWidth="468.0" text="Welcome to Photo Management System" textFill="RED">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="188.0" prefHeight="37.0" prefWidth="141.0" text="Username:">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfUsername" layoutX="274.0" layoutY="184.0" prefHeight="45.0" prefWidth="299.0" promptText="username" />
+      <Button fx:id="btnLogin" layoutX="170.0" layoutY="338.0" mnemonicParsing="false" onAction="#actionOnLogin" prefHeight="45.0" prefWidth="141.0" text="Login" textFill="#0026ff">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnExit" layoutX="394.0" layoutY="338.0" mnemonicParsing="false" onAction="#actionOnExit" prefHeight="45.0" prefWidth="141.0" text="Exit" textFill="#0026ff">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
