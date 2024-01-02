@@ -1,4 +1,4 @@
-#JAVAFX PhotosAlbum
+# JavaFx PhotosAlbum
 
 Important Notice: Fall 2023 course project for CS213 at Rutgers University. Please follow Rutgers University's Academic Integrity Policy.
 
